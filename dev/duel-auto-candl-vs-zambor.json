@@ -1,0 +1,34 @@
+{
+  "provider": "axforge",
+  "auto": true,
+  "model": "glm-5.3-flash",
+  "label_a": "cand-l",
+  "label_b": "zambor",
+  "call1_AB": {
+    "verdict": "A",
+    "margin": 2.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 515,
+    "completion_tokens": 503,
+    "raw": "Both fortunes hit the brief: cookie voice, a liquidated trader, a loss in the room. The difference shows up at criterion 4 and slightly at 2.\n\nA sets up a proper oracular promise \u2014 \"Your future holds great wealth\" \u2014 then breaks it with the custody joke: the wealth exists, it's just being \"kept safe\" by the exchange. That's a fresh, insider-flavored turn (every liquidated trader knows what \"safekeeping\" means at an exchange), and \"until you can laugh about this\" makes the punchline rueful and warm rather than cruel \u2014 the cookie is on the trader's side, waiting for them.\n\nB's turn \u2014 \"fortune favored your exchange instead\" \u2014 lands cleanly but is the more obvious reversal, and it tilts a shade closer to smug: the joke is simply that the house won. A's joke is that the money still exists, somewhere, unreachable \u2014 which is both funnier and sadder in the right way.\n\nReason: A's custody twist is the fresher, warmer joke, and its setup reads more like a real fortune; B's reversal is solid but more predictable and a touch less kind.\nVerdict: A\nMargin: 2",
+    "reasoning_tail": "Compare A and B.\n\nA: fortune cookie voice with oracular promise, punchline about exchange keeping wealth \"safe\" \u2014 the custody joke, loss implied by \"laugh about this.\" Reads whole. Fresh twist: \"keeping it safe\" = exchange holding funds. Warm, rueful.\n\nB: \"Fortune favors the bold \u2014 and today it favored your exchange instead\" \u2014 good twist, but slightly smug? It's warm enough. But \"favored your exchange\" \u2014 the loss is the exchange winning. Both decent.\n\nCriteria 1: both have loss and trader. B explicitly says \"dear trader,\" A implies. Both fine.\n\n2: laugh vs cry \u2014 A's \"keeping it safe\" is a custody joke, very rueful; B's also. A maybe warmer? B is fine too.\n\n4: freshness \u2014 A's custody joke (\"your funds are SAFU\") is a crypto in-joke, quite fresh. B's is more of an obvious turn.\n\n5: fortune voice \u2014 A has \"Your future holds great wealth\" proper oracular setup broken by punchline. B has \"Fortune favors the bold\" proverb setup too.\n\nA edges on freshness and warmth. Verdict A, margin 2."
+  },
+  "call2_BA": {
+    "verdict": "A",
+    "margin": 2.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 515,
+    "completion_tokens": 193,
+    "raw": "Both keep the cookie voice and hit the loss. A breaks a real fortune proverb (\"Fortune favors the bold\") with the exchange pocketing it \u2014 the double meaning of \"favored\" is the joke, and \"dear trader\" keeps it warm rather than smug. B is sweet but the punchline arrives more gently and explains itself; A's turn is sharper and lands in one breath. Verdict: A, margin 2.",
+    "reasoning_tail": "A: \"Fortune favors the bold \u2014 and today, it favored your exchange instead.\" Fortune voice, oracle, twist on proverb, lands on trader and loss, warm. B: \"exchange is keeping it safe\" \u2014 cute, also fortune voice. A's twist is sharper and more fortune-cookie-like (broken proverb). B is a bit softer, gentler, also good. A has \"dear trader\" adding warmth. A's turn is more surprising. Pick A, margin 2."
+  },
+  "score_first": 0.5,
+  "winner": "tie",
+  "total_cost_usd": 0.0,
+  "attempts": [
+    {
+      "provider": "axforge",
+      "status": "ok"
+    }
+  ]
+}

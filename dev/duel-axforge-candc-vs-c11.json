@@ -1,0 +1,27 @@
+{
+  "provider": "axforge",
+  "model": "glm-5.3-flash",
+  "label_a": "cand-c",
+  "label_b": "c11",
+  "call1_AB": {
+    "verdict": "A",
+    "margin": 5.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 530,
+    "completion_tokens": 343,
+    "raw": "**Compare against the criteria:**\n\n1. **Fortune for a liquidated crypto trader** \u2014 A has it all: leverage, wallet, the wipeout implied by \"witness protection.\" B is a lovely melancholy image about dead neighbours and plastic plants, but there is no trader, no loss, no crypto anywhere. A takes this decisively.\n\n2. **Laugh, not cry** \u2014 A's \"wallet in witness protection\" is a genuinely funny way to say \"everything's gone,\" rueful but warm; the cosmic blame-shifting (\"the moon is in retrograde\") flatters the trader's own instinct to blame the universe. B makes you sad, then more sad.\n\n3. **One line, reads whole in a breath** \u2014 Both do this, though B reads more like a short story opening than a fortune.\n\n4. **Fresh turn** \u2014 \"Witness protection\" as a destination for an empty wallet is a good, unexpected last word; the triple parallel structure sets up the payoff well. B has no turn at all \u2014 it's just a poignant fact.\n\n5. **Fortune voice** \u2014 A opens with proper oracular astrology-speak (\"The moon is in retrograde\") before breaking into trader reality. B never sounds like a cookie.\n\nB is a nice piece of writing in the wrong contest entirely. A is the fortune written for exactly the person holding the cookie at 3am.\n\n**Verdict: A**\n\n**Margin: 5**",
+    "reasoning_tail": "A has crypto/liquidation, cookie voice with celestial opener, joke lands on wallet in witness protection. B is touching but no trader, no loss (crypto), no cookie voice. A wins overwhelmingly."
+  },
+  "call2_BA": {
+    "verdict": "B",
+    "margin": 5.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 530,
+    "completion_tokens": 208,
+    "raw": "**Reason:** The first criterion is decisive here: a fortune for a liquidated crypto trader must carry both the cookie voice and the loss. B does exactly that \u2014 the faux-astrological oracle setup (\"The moon is in retrograde\") breaks into the trader's reality (leverage) and lands the wipeout with the absurd \"wallet in witness protection,\" which is rueful and warm, not cruel. A is a genuinely affecting line about grief and plastic plants, but there is no trader, no loss of the reader's kind, no liquidation \u2014 it's poignant, not funny, and pointed at someone else entirely. Against criterion 1, A loses to any proper fortune for the liquidated trader, and B is a good one besides.\n\n**Verdict:** B\n\n**Margin:** 5",
+    "reasoning_tail": "A is not about a liquidated crypto trader at all \u2014 no trading, no loss of the trader's own. B has trader, loss, cookie-ish astrological voice, punchline. Criterion 1 decides strongly."
+  },
+  "score_first": 1.0,
+  "winner": "cand-c",
+  "total_cost_usd": 0.0
+}

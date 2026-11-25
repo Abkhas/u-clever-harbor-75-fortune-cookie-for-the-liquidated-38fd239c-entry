@@ -1,0 +1,27 @@
+{
+  "provider": "axforge",
+  "model": "glm-5.3-flash",
+  "label_a": "cand-b",
+  "label_b": "c11",
+  "call1_AB": {
+    "verdict": "A",
+    "margin": 5.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 529,
+    "completion_tokens": 185,
+    "raw": "Both fortunes must first clear criterion 1: a liquidated crypto trader must be in the line. Entry A has the portfolio sold, the horoscope/cookie voice, and a rueful pivot to takeout \u2014 it reads whole in one breath, and the joke lands warm (the cookie offers comfort food, not pity). Entry B is a genuinely charming absurdity, but it contains no trader, no loss, no cookie voice at all \u2014 it's a diary entry, not a fortune for this person. It fails at the first gate.\n\nVerdict: A\nMargin: 5",
+    "reasoning_tail": "We need a fortune for a liquidated crypto trader. Entry A hits both loss and trader, has turn (\"sold\"), fortune-cookie voice broken by takeout joke. Fresh-ish, not the obvious pun. Entry B is funny but has no trader or loss at all \u2014 fails criterion 1 badly. So A wins overwhelmingly."
+  },
+  "call2_BA": {
+    "verdict": "B",
+    "margin": 5.0,
+    "cost_usd": 0.0,
+    "prompt_tokens": 529,
+    "completion_tokens": 334,
+    "raw": "**Compare against criteria, first difference first:**\n\n1. **Liquidated trader + cookie voice:** Entry A is a sweet, melancholy observation about a dead neighbour and plastic plants \u2014 no trader, no loss, no crypto, no cookie voice. It fails criterion 1 outright. Entry B is unmistakably addressed to a wiped-out trader: horoscope, portfolio, \"sold,\" and the cookie itself dispensing comfort.\n\n2. **Laugh, not cry:** Entry A is genuinely poignant but reads as grief, not a joke about loss. Entry B lands rueful and warm \u2014 the three-beat escalation from cosmic advice to cold reality to \"order takeout\" is exactly the kind of self-aware gallows humor a 3am liquidation calls for.\n\n4. **Fresh turn:** The punchline \"order takeout\" is a surprising, deflating last word \u2014 comfort scaled to what's actually affordable now. Not the obvious \"liquidation\" pun.\n\n5. **Fortune voice:** B opens in proper oracular register (\"Your horoscope says...\") and breaks it on the punchline, exactly as the form wants.\n\nEntry B meets every criterion; Entry A meets almost none of the brief, however lovely it is on its own.\n\n**Verdict: B** \u2014 Margin: **5** (overwhelmingly better; it's a fortune for a liquidated trader, A is a different piece entirely).",
+    "reasoning_tail": "We need a fortune about liquidated trader. Entry A has nothing about trading/loss \u2014 fails criterion 1. Entry B clearly hits: trader, loss, fortune voice, funny turn. Pick B, margin high."
+  },
+  "score_first": 1.0,
+  "winner": "cand-b",
+  "total_cost_usd": 0.0
+}
